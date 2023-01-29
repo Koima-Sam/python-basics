@@ -33,3 +33,21 @@ print(e,"is equal to",f)
 fruits = ['Mango','Peaches','Banana','Apples']
 g,h,i,j = fruits
 print(h)
+
+
+# Local and global  variables
+
+x = "United" #global
+
+def win():
+    x ="City" #local
+    print("Manchester",x)
+
+win()
+
+
+#Python Numbers
+
+x = 1    # int
+y = 2.8  # float
+z = 1j   # complex
