@@ -51,3 +51,51 @@ win()
 x = 1    # int
 y = 2.8  # float
 z = 1j   # complex
+
+#random numbers
+import random
+print(random.randrange(1,10))
+
+# Strings - are surrounded by either single or double quotes 
+a = '''
+This is a multi
+line string in
+python 
+'''
+
+print(a)
+
+#string is like an array and we can loop  through it
+
+b = "Banana"
+
+for c in b:
+    print(c)
+
+'''
+len() - gets the length of a string
+strip() - removes any white space
+replace(a,b) - replaces character a with b
+split()- returns a list where the text between the specified separator becomes the list items.
+'''
+#slicing a string
+
+card = "Joker Is Back!"
+print(card[:2])
+print(card[2:5])
+
+
+#format() - combines strings with numbers
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = "I want {} pieces of item {} for {} dollars."
+print(myorder.format(quantity, itemno, price))
+
+
+# Let's talk about you
+jj ="Jemila Jemeli"
+age = 22.25
+
+greet = "Hello {}, How old are you?, {} years old?"
+print(greet.format(jj,age))
